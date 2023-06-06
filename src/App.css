@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+.d {
+
+
+a: hsl(0, 0%, 98%);
+a: hsl(236, 33%, 92%);
+a: hsl(233, 11%, 84%);
+a: hsl(236, 9%, 61%);
+a: hsl(235, 19%, 35%);
+
+
+a: hsl(235, 21%, 11%);
+a: hsl(235, 24%, 19%);
+a: hsl(234, 39%, 85%);
+a: hsl(236, 33%, 92%);
+a: hsl(234, 11%, 52%);
+a: hsl(233, 14%, 35%);
+a: hsl(237, 14%, 26%);
+}
