@@ -24,11 +24,8 @@ const Checkbox = ({ id, isCompleted, onChange }) => {
         type="checkbox"
         id={`input-checked-${id}`}
         className="hidden"
-        aria-controls="myButton"
       />
-      <button id="myButton" role="button" className="hidden">
-        Button Content
-      </button>
+      
     </div>
   );
 };
