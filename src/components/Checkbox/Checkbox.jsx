@@ -9,6 +9,7 @@ const Checkbox = ({id, isCompleted, onChange }) => {
   return (
     <div className="flex pr-[24px]">
       <label
+      role="button"
         htmlFor={`input-checked-${id}`}
         className={`w-6 h-6 flex rounded-full border border-light-300 dark:border-dark-500
          

@@ -65,9 +65,9 @@ const TodoList = ({ todos, onSetTodo,onFilter }) => {
         <div className="text-[13px] text-light-400 dark:text-dark-400">
           {todos?.length} items left
         </div>
-        <ul className="sm:flex items-center gap-4 hidden">
+        <div className="sm:flex items-center gap-4 hidden">
         <FilterLink onFilter={onFilter} />
-        </ul>
+        </div>
         <button
           onClick={clearCompletedHandler}
           className="text-[13px] text-light-400  dark:text-dark-400"

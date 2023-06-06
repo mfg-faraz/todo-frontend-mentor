@@ -13,7 +13,6 @@ const SingleTodo = ({ todo,onUpdate }) => {
     <div className="bg-light-100 dark:bg-dark-200 flex items-center px-[24px] py-[18px] border-b dark:border-b-dark-600">
       <Checkbox id={todo?.id} isCompleted={todo?.isCompleted } onChange={changeHandler}/>
       <div
-        type="text"
         className="w-full  outline-none text-lg font-normal bg-transparent text-light-500 dark:text-dark-300"
       >
         {todo?.isCompleted ? (
